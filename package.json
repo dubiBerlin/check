@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name check ./src/App.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
